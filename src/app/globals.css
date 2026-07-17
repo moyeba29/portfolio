@@ -7,12 +7,13 @@ body {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .container-global {
-    display: flex;
-    justify-content: center;
-    padding: 0;
+    display: block;
+    width: 100%;
     background-color: #F3F3F3;
 }
 
@@ -20,7 +21,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 650px;
 }
 
 .titre-colonne {
@@ -30,7 +30,7 @@ body {
 .page-rendu {
     background-color: #F3F3F3;
     width: 100%;
-    padding: 60px 24px;
+    padding: 60px 40px;
     box-sizing: border-box;
 }
 
@@ -54,14 +54,14 @@ body {
 
 .menu-navigation {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 .menu-navigation li a {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
     color: #1E1E1E;
     text-decoration: none;
@@ -76,8 +76,8 @@ body {
 .section-hero {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    margin-bottom: 45px;
+    gap: 60px;
+    margin-bottom: 65px;
     align-items: flex-start;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .titre-about {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 1.15;
     margin-bottom: 25px;
@@ -94,11 +94,11 @@ body {
 }
 
 .paragraphe-about {
-    font-size: 11px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.6;
     color: #555555;
     font-weight: 300;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     letter-spacing: -0.01em;
 }
 
@@ -116,7 +116,7 @@ body {
 .zone-competences {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     margin-bottom: 40px;
 }
 
@@ -126,8 +126,8 @@ body {
 }
 
 .label-competence {
-    width: 100px;
-    font-size: 9.5px;
+    width: 140px;
+    font-size: 12px;
     font-weight: 500;
     text-decoration: underline;
     letter-spacing: -0.01em;
@@ -140,9 +140,9 @@ body {
 }
 
 .liste-items p {
-    font-size: 9.5px;
+    font-size: 12px;
     color: #1E1E1E;
-    line-height: 1.5;
+    line-height: 1.6;
     font-weight: 300;
     margin: 0 0 8px 0;
     letter-spacing: -0.01em;
@@ -152,16 +152,16 @@ body {
     width: 100%;
     height: 1px;
     background-color: #1E1E1E;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .zone-contact {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
-    margin-bottom: 50px;
+    gap: 40px;
+    margin-bottom: 60px;
 }
 
 .contact-gauche {
@@ -176,44 +176,44 @@ body {
 }
 
 .texte-accroche {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     color: #1E1E1E;
-    line-height: 1.3;
+    line-height: 1.4;
     letter-spacing: -0.02em;
     margin: 0;
 }
 
 .email-contact {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     color: #1E1E1E;
     margin: 0;
     letter-spacing: -0.02em;
-    line-height: 1.3;
+    line-height: 1.4;
     white-space: nowrap;
 }
 
 .lien-cv {
-    font-size: 9.5px;
+    font-size: 12px;
     color: #1E1E1E;
     text-decoration: none;
     font-weight: 400;
     cursor: pointer;
     letter-spacing: -0.01em;
     display: inline-block;
-    margin-top: 16px;
+    margin-top: 24px;
 }
 
 .pied-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .copyright-bleu {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     color: #1B29C2;
     letter-spacing: -0.01em;
@@ -221,11 +221,11 @@ body {
 
 .liens-reseaux {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .liens-reseaux span {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: -0.01em;
 }
@@ -233,8 +233,8 @@ body {
 .introduction-work {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    margin-bottom: 65px;
+    gap: 60px;
+    margin-bottom: 80px;
     align-items: flex-start;
 }
 
@@ -243,7 +243,7 @@ body {
 }
 
 .intro-gauche-work h1 {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 1.15;
     margin: 0;
@@ -251,10 +251,10 @@ body {
 }
 
 .icone-fleche-bas {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
     display: block;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .intro-droite-work {
@@ -262,8 +262,8 @@ body {
 }
 
 .intro-droite-work p {
-    font-size: 11px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.6;
     color: #555555;
     font-weight: 300;
     margin: 0;
@@ -273,14 +273,14 @@ body {
 .liste-projets {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 60px;
 }
 
 .bloc-projet {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    padding-bottom: 45px;
+    gap: 60px;
+    padding-bottom: 60px;
     border-bottom: 1px solid #1E1E1E;
     align-items: flex-start;
 }
@@ -292,32 +292,32 @@ body {
 }
 
 .projet-numero-titre {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 500;
-    margin: 0 0 25px 0;
+    margin: 0 0 35px 0;
     letter-spacing: -0.01em;
 }
 
 .projet-description {
-    font-size: 11px;
-    line-height: 1.5;
+    font-size: 13px;
+    line-height: 1.6;
     font-weight: 300;
     color: #555555;
-    margin: 0 0 16px 0;
+    margin: 0 0 20px 0;
     letter-spacing: -0.01em;
 }
 
 .projet-details-techniques {
-    font-size: 9.5px;
-    line-height: 1.4;
+    font-size: 11px;
+    line-height: 1.5;
     color: #8C8C8C;
     font-weight: 300;
-    margin: 0 0 25px 0;
+    margin: 0 0 35px 0;
     letter-spacing: -0.01em;
 }
 
 .projet-lien-action {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 500;
     color: #1E1E1E;
     text-decoration: underline;
@@ -334,4 +334,4 @@ body {
     aspect-ratio: 1 / 1;
     background-color: #E0E0E0;
     border-radius: 0;
-}
+}}
