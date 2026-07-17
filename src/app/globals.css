@@ -1,37 +1,44 @@
-body {
-    background-color: #F3F3F3;
-    color: #1E1E1E;
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html, body {
+    background-color: #F3F3F3 !important;
+    color: #1E1E1E !important;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
     min-height: 100vh;
 }
 
 .container-global {
-    display: block;
-    width: 100%;
-    background-color: #F3F3F3;
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #F3F3F3 !important;
 }
 
 .colonne-page {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
 }
 
 .titre-colonne {
-    display: none;
+    display: none !important;
 }
 
 .page-rendu {
-    background-color: #F3F3F3;
-    width: 100%;
-    padding: 60px 40px;
-    box-sizing: border-box;
+    background-color: #F3F3F3 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 60px 40px !important;
+    box-sizing: border-box !important;
 }
 
 .entete {
@@ -334,4 +341,4 @@ body {
     aspect-ratio: 1 / 1;
     background-color: #E0E0E0;
     border-radius: 0;
-}}
+}
