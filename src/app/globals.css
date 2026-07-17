@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #F3F3F3;
     color: #1E1E1E;
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     margin: 0;
@@ -13,14 +13,14 @@ body {
     display: flex;
     justify-content: center;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #F3F3F3;
 }
 
 .colonne-page {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 800px;
+    max-width: 650px;
 }
 
 .titre-colonne {
@@ -28,9 +28,9 @@ body {
 }
 
 .page-rendu {
-    background-color: #ffffff;
+    background-color: #F3F3F3;
     width: 100%;
-    padding: 40px 24px;
+    padding: 60px 24px;
     box-sizing: border-box;
 }
 
@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 45px;
+    margin-bottom: 65px;
 }
 
 .logo-site {
@@ -54,14 +54,14 @@ body {
 
 .menu-navigation {
     display: flex;
-    gap: 12px;
+    gap: 16px;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 .menu-navigation li a {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 400;
     color: #1E1E1E;
     text-decoration: none;
@@ -76,28 +76,29 @@ body {
 .section-hero {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 25px;
+    gap: 40px;
+    margin-bottom: 45px;
+    align-items: flex-start;
 }
 
 .hero-gauche {
-    width: 55%;
+    width: 50%;
 }
 
 .titre-about {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 1.2;
-    margin-bottom: 15px;
+    line-height: 1.15;
+    margin-bottom: 25px;
     letter-spacing: -0.02em;
 }
 
 .paragraphe-about {
-    font-size: 10.5px;
-    line-height: 1.45;
-    color: #1E1E1E;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #555555;
     font-weight: 300;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     letter-spacing: -0.01em;
 }
 
@@ -107,16 +108,16 @@ body {
 
 .image-portrait {
     width: 100%;
-    height: 185px;
-    object-fit: cover;
-    border-radius: 2px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0;
 }
 
 .zone-competences {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 20px;
+    margin-bottom: 40px;
 }
 
 .ligne-competence {
@@ -125,8 +126,8 @@ body {
 }
 
 .label-competence {
-    width: 90px;
-    font-size: 9px;
+    width: 100px;
+    font-size: 9.5px;
     font-weight: 500;
     text-decoration: underline;
     letter-spacing: -0.01em;
@@ -141,18 +142,18 @@ body {
 .liste-items p {
     font-size: 9.5px;
     color: #1E1E1E;
-    line-height: 1.4;
+    line-height: 1.5;
     font-weight: 300;
-    margin: 0 0 5px 0;
+    margin: 0 0 8px 0;
     letter-spacing: -0.01em;
 }
 
 .barre-separation {
     width: 100%;
     height: 1px;
-    background-color: #E0E0E0;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-color: #1E1E1E;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .zone-contact {
@@ -160,55 +161,55 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .contact-gauche {
-    width: 55%;
+    width: 50%;
 }
 
 .contact-droite {
-    width: 45%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .texte-accroche {
-    font-size: 13.5px;
+    font-size: 14px;
     font-weight: 400;
     color: #1E1E1E;
-    line-height: 1.2;
+    line-height: 1.3;
     letter-spacing: -0.02em;
     margin: 0;
 }
 
 .email-contact {
-    font-size: 13.5px;
+    font-size: 14px;
     font-weight: 400;
     color: #1E1E1E;
     margin: 0;
     letter-spacing: -0.02em;
-    line-height: 1.2;
+    line-height: 1.3;
     white-space: nowrap;
 }
 
 .lien-cv {
-    font-size: 9px;
+    font-size: 9.5px;
     color: #1E1E1E;
     text-decoration: none;
     font-weight: 400;
     cursor: pointer;
     letter-spacing: -0.01em;
     display: inline-block;
-    margin-top: 24px;
+    margin-top: 16px;
 }
 
 .pied-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .copyright-bleu {
@@ -220,7 +221,7 @@ body {
 
 .liens-reseaux {
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .liens-reseaux span {
@@ -232,25 +233,28 @@ body {
 .introduction-work {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    margin-bottom: 40px;
+    gap: 40px;
+    margin-bottom: 65px;
+    align-items: flex-start;
 }
 
 .intro-gauche-work {
-    width: 55%;
+    width: 50%;
 }
 
 .intro-gauche-work h1 {
     font-size: 24px;
     font-weight: 500;
     line-height: 1.15;
-    margin: 0 0 20px 0;
+    margin: 0;
     letter-spacing: -0.02em;
 }
 
 .icone-fleche-bas {
     font-size: 20px;
     font-weight: 300;
+    display: block;
+    margin-top: 25px;
 }
 
 .intro-droite-work {
@@ -259,62 +263,61 @@ body {
 
 .intro-droite-work p {
     font-size: 11px;
-    line-height: 1.4;
-    color: #1E1E1E;
+    line-height: 1.5;
+    color: #555555;
     font-weight: 300;
     margin: 0;
-    padding-top: 5px;
     letter-spacing: -0.01em;
 }
 
 .liste-projets {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 45px;
 }
 
 .bloc-projet {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #E0E0E0;
+    gap: 40px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #1E1E1E;
+    align-items: flex-start;
 }
 
 .projet-gauche {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .projet-numero-titre {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 500;
-    margin: 0 0 10px 0;
+    margin: 0 0 25px 0;
     letter-spacing: -0.01em;
 }
 
 .projet-description {
-    font-size: 10px;
-    line-height: 1.4;
+    font-size: 11px;
+    line-height: 1.5;
     font-weight: 300;
-    color: #1E1E1E;
-    margin: 0 0 12px 0;
+    color: #555555;
+    margin: 0 0 16px 0;
     letter-spacing: -0.01em;
 }
 
 .projet-details-techniques {
-    font-size: 8.5px;
-    line-height: 1.35;
-    color: #666666;
+    font-size: 9.5px;
+    line-height: 1.4;
+    color: #8C8C8C;
     font-weight: 300;
-    margin: 0 0 15px 0;
+    margin: 0 0 25px 0;
     letter-spacing: -0.01em;
 }
 
 .projet-lien-action {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 500;
     color: #1E1E1E;
     text-decoration: underline;
@@ -322,12 +325,13 @@ body {
 }
 
 .projet-droite-image {
-    width: 50%;
+    width: 45%;
 }
 
 .carre-gris-projet {
     width: 100%;
-    height: 115px;
-    background-color: #F5F5F5;
-    border-radius: 1px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    background-color: #E0E0E0;
+    border-radius: 0;
 }
