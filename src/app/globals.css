@@ -12,28 +12,25 @@ body {
 .container-global {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    padding: 40px;
+    padding: 0;
     background-color: #ffffff;
 }
 
 .colonne-page {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 800px;
 }
 
 .titre-colonne {
-    font-size: 14px;
-    color: #8C8C8C;
-    margin-bottom: 10px;
-    font-weight: 400;
-    letter-spacing: -0.01em;
+    display: none;
 }
 
 .page-rendu {
     background-color: #ffffff;
-    width: 440px;
-    padding: 35px 30px;
+    width: 100%;
+    padding: 40px 24px;
     box-sizing: border-box;
 }
 
